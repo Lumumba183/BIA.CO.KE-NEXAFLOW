@@ -1,0 +1,9 @@
+{
+  "name": "bia-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BIA Limited — Business Investment Advisory corporate website",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r *.html dist/ && cp -r assets dist/ && cp robots.txt sitemap.xml dist/ 2>/dev/null || true"
+  }
+}
