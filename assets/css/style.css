@@ -145,6 +145,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;color:var(--n
 .member:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
 .member-head{display:flex;align-items:center;gap:20px;margin-bottom:20px}
 .avatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(150deg,var(--blue),var(--navy));color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1.7rem;font-weight:700;flex-shrink:0}
+.avatar-img{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:center 18%;flex-shrink:0;border:3px solid var(--ice);box-shadow:0 6px 18px rgba(10,37,64,.18)}
 .member h3{font-size:1.25rem;margin-bottom:4px}
 .member .role{font-size:.8rem;font-weight:600;color:var(--blue);letter-spacing:.06em;text-transform:uppercase}
 .member p{font-size:.9rem;color:var(--slate);margin-bottom:10px}
